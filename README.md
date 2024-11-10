@@ -76,7 +76,9 @@ images e.g. [llava](https://ollama.com/library/llava)
 
 Local Multimodal AI Chat is a multimodal chat application that integrates various AI models to manage audio, images, and PDFs seamlessly within a single interface. This application is ideal for those passionate about AI and software development, offering a comprehensive solution that employs Whisper AI for audio processing, LLaVA for image management, and Chroma DB for handling PDFs.
 
-The application has been enhanced with the Ollama server and the OpenAI API, boosting its functionality and performance. You can find a detailed tutorial on the development of this repository on my [youtube channel](https://youtu.be/CUjO8b6_ZuM). While significant advancements have been made, the project is still open to further development and refinement.
+The application has been enhanced with the Ollama server and the OpenAI API, boosting its functionality and performance. While significant advancements have been made, the project is still open to further development and refinement.
+
+<!-- You can find a detailed tutorial on the development of this repository on my [youtube channel](https://youtu.be/CUjO8b6_ZuM). -->
 
 I welcome contributions of all forms. Whether you’re introducing new features, optimizing the code, or correcting bugs, your participation is valued. This project thrives on community collaboration and aims to serve as a robust resource for those interested in the practical application of multimodal AI technologies.
 
@@ -92,7 +94,7 @@ I welcome contributions of all forms. Whether you’re introducing new features,
 
 - **PDF Chatting with Chroma DB**: The app is tailored for both professional and academic uses, integrating Chroma DB as a vector database for efficient PDF interactions. This feature allows users to engage with their own PDF files locally on their device. This makes it a valuable tool for personal use, where one can extract insights, summaries, and engage in a unique form of dialogue with the text in their PDF files. [Chroma website](https://docs.trychroma.com/)
 
-## Changelog
+<!-- ## Changelog
 
 ### 16.09.2024:
 - **Big Update**: Model Serving based on Ollama API now. Added Openai API.
@@ -128,10 +130,10 @@ I welcome contributions of all forms. Whether you’re introducing new features,
 - **Issue with Message Sending:** After writing in the text field and pressing the send button, the LLM would not generate a response. 
 - **Cause of the Issue:** This happened because the `clear_input_field` callback from the button changes the text field value to an empty string after saving the user question. However, changing the text field value triggers the callback from the text field widget, setting the `user_question` to an empty string again. As a result, the LLM is not called.
 - **Implemented Workaround:** As a workaround, I added a check before changing the `user_question` value.
-</details>
+</details> -->
 
 
-## Possible Improvements
+<!-- ## Possible Improvements
 - ~~Add Model Caching.~~
 - ~~Add Images and Audio to Chat History Saving and Loading.~~
 - ~~Use a Database to Save the Chat History.~~
@@ -139,12 +141,12 @@ I welcome contributions of all forms. Whether you’re introducing new features,
 - Add Image Generator Model.
 - Authentication Mechanism.
 - Change Theme.
-- ~~Separate Frontend and Backend Code for Better Deployment.~~
+- ~~Separate Frontend and Backend Code for Better Deployment.~~ -->
 
-## Contact Information
+<!-- ## Contact Information
 
 If you're interested in working with me, feel free to contact me via email.
 Before contacting me because of errors you're encountering, make sure to check the github issues first: https://github.com/Leon-Sander/Local-Multimodal-AI-Chat/issues?q=
 
 - Email: leonsander.consulting@gmail.com
-- Twitter: [@leonsanderai](https://twitter.com/leonsanderai)
+- Twitter: [@leonsanderai](https://twitter.com/leonsanderai) -->
