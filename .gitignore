@@ -5,3 +5,8 @@ chroma_db/chroma.sqlite3
 
 myenv/
 pdfs/
+
+.env
+
+__pycache__/
+LICENSE.md
